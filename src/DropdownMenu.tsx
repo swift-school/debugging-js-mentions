@@ -13,7 +13,7 @@ interface DropdownMenuProps {
  * We only use Menu to display the candidate.
  * The focus is controlled by textarea to make accessibility easy.
  */
-class DropdownMenu extends React.Component<DropdownMenuProps, {}> {
+class DropdownMenu extends React.Component<DropdownMenuProps> {
   public renderDropdown = ({
     notFoundContent,
     activeIndex,
